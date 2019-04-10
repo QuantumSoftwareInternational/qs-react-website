@@ -13,22 +13,22 @@ import {
 
 const Navigation = props => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Navbar.Brand href="#home">Quantum Software</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto" />
         <Nav color="default-color">
-          <Nav.Link className="test" eventKey={1} href="#deets">
+          <Nav.Link eventKey={1} href="#About">
             About
           </Nav.Link>
-          <Nav.Link className="test" eventKey={2} href="#memes">
+          <Nav.Link eventKey={2} href="#Services">
             Services
           </Nav.Link>
-          <Nav.Link className="test" eventKey={3} href="#memes">
+          <Nav.Link eventKey={3} href="#Portfolio">
             Portfolio
           </Nav.Link>
-          <Nav.Link className="test" eventKey={4} href="#memes">
+          <Nav.Link eventKey={4} href="#memes">
             Contact
           </Nav.Link>
         </Nav>
